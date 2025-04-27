@@ -1,0 +1,6 @@
+p=int(input("Enter a number"))
+t=int(input("Enter a number"))
+r=int(input("Enter a number"))
+result=(p*[(1+r/100)**t])
+print("the compound intrest is :",end=" ")
+print(result)
