@@ -1,0 +1,3 @@
+string_list=["apple","banana","chaeery"]
+min_string=min(string_list)
+print(f"minimum string in list:{min_string}")
