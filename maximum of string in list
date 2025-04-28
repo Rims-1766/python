@@ -1,0 +1,3 @@
+string_list=["apple","banana","cheery"]
+max_string=max(string_list)
+print(f"maximum string in list:{max_string}")
