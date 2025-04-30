@@ -1,0 +1,19 @@
+import math
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+c=int(input("enter a number:"))
+discriminant = b**2-4*a*c 
+if discriminant > 0:
+    root1=(-b+math.sqrt(discriminant))/2*a
+    root2=(-b-math.sqrt(discriminant))/2*a 
+    print(f"root 1 is{root1}")
+    print(f"root 2 is{root2}")
+elif discriminant == 0:
+    root=-b/2*a 
+    print(f"root is {root}")
+else:
+    real_part=-b/2*a 
+    imaginary_part=math.sqrt(abs(discriminant))/2*a 
+    print(f"root1:{real_part}+{imaginary_part}")
+    print(f"root2:{real_part}+{imaginary_part}")
+    
